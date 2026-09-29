@@ -1,0 +1,13 @@
+[PII REDACTION EVIDENCE]
+
+1. Email redaction:
+{"service": "api", "payload": {"message_preview": "What is your refund policy? My email is [REDACTED_EMAIL]"}, "event": "request_received", "model": "claude-sonnet-4-5", "user_id_hash": "2055254ee30a", "correlation_id": "req-68ab95a9", "session_id": "s01", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:20.245992Z"}
+{"service": "api", "latency_ms": 1201, "ttft_ms": 50, "tokens_in": 36, "tokens_out": 158, "cost_usd": 0.002478, "quality_score": 0.9, "tool_name": "retrieval", "tool_success": true, "payload": {"answer_preview": "Starter answer. You should improve this output logic and add better quality chec..."}, "event": "response_sent", "model": "claude-sonnet-4-5", "user_id_hash": "2055254ee30a", "correlation_id": "req-68ab95a9", "session_id": "s01", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:21.449470Z"}
+
+2. Phone VN redaction:
+{"service": "api", "payload": {"message_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?"}, "event": "request_received", "model": "claude-sonnet-4-5", "user_id_hash": "64f6ec689229", "correlation_id": "req-c2832edf", "session_id": "s05", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:22.819966Z"}
+{"service": "api", "latency_ms": 427, "ttft_ms": 50, "tokens_in": 33, "tokens_out": 162, "cost_usd": 0.002529, "quality_score": 0.9, "tool_name": "retrieval", "tool_success": true, "payload": {"answer_preview": "Starter answer. You should improve this output logic and add better quality chec..."}, "event": "response_sent", "model": "claude-sonnet-4-5", "user_id_hash": "64f6ec689229", "correlation_id": "req-c2832edf", "session_id": "s05", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:23.249395Z"}
+
+3. Credit Card redaction:
+{"service": "api", "payload": {"message_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?"}, "event": "request_received", "model": "claude-sonnet-4-5", "user_id_hash": "4d14d5d4f719", "correlation_id": "req-23bd8359", "session_id": "s09", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:24.563104Z"}
+{"service": "api", "latency_ms": 445, "ttft_ms": 51, "tokens_in": 36, "tokens_out": 162, "cost_usd": 0.002538, "quality_score": 0.9, "tool_name": "retrieval", "tool_success": true, "payload": {"answer_preview": "Starter answer. You should improve this output logic and add better quality chec..."}, "event": "response_sent", "model": "claude-sonnet-4-5", "user_id_hash": "4d14d5d4f719", "correlation_id": "req-23bd8359", "session_id": "s09", "feature": "qa", "env": "dev", "level": "info", "ts": "2026-09-29T07:59:25.012445Z"}

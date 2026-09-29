@@ -1,0 +1,14 @@
+=== DASHBOARD CONTRACT VALIDATION ===
+File: config/dashboard.yaml
+Schema Version: 1
+Title: K4-L3A Day 13 Monitoring & LLMOps
+
+Panels Validated:
+1. latency: Latency percentiles and TTFT (p50, p95, p99, ttft_p95) [PASS]
+2. traffic: Request traffic (count, rate_per_minute) [PASS]
+3. errors: Error rate and retrieval success (error_rate_pct, count_by_value, tool_success_rate_pct) [PASS]
+4. cost: Cost over time (sum_by_minute, total) [PASS]
+5. tokens: Input and output tokens (sum_by_field) [PASS]
+6. quality: Quality proxy (mean) [PASS]
+
+HỢP LỆ: 6/6 panel có trong dashboard contract.
